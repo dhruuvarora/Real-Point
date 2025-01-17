@@ -34,6 +34,6 @@ app.get("/", function(req, res) {
 });
 
 // Start the server
-server.listen(8000, function() {
-    console.log("App started at localhost:8000");
+server.listen(process.env.PORT || 8000, function() {
+    console.log("App started on port", process.env.PORT || 8000);
 });
