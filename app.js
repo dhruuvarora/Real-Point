@@ -34,6 +34,8 @@ app.get("/", function(req, res) {
 });
 
 // Start the server
-server.listen(process.env.PORT || 8000, function() {
-    console.log("App started on port", process.env.PORT || 8000);
+const PORT = process.env.PORT || 8000;
+
+server.listen(PORT, function () {
+    console.log(`App started on port ${PORT}`);
 });
