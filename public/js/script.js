@@ -29,7 +29,7 @@ console.log("Map initialized");
 // Add OpenStreetMap tile layer
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "Dhruv"
-}).addTo(map);
+}).addTo(map); 
 
 // Object to store markers by client ID
 const markers = {};
