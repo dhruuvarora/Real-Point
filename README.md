@@ -25,7 +25,7 @@ Follow these steps to set up the project locally:
 
 Clone the repository:
 
-git clone **https://github.com/<your-username>/real-point.git**
+git clone https://github.com/<your-username>/real-point.git
 
 cd real-point
 
@@ -40,20 +40,6 @@ npm start
 Open your browser and navigate to:
 
 http://localhost:8000
-
-# Project Structure
-
-real-point/
-├── public/
-│   ├── css/
-│   │   └── style.css  # Styles for the map and page
-│   ├── js/
-│   │   └── script.js  # Client-side JavaScript
-├── views/
-│   └── index.ejs           # Main HTML file
-├── app.js                      # Main backend server
-├── package.json               # Project dependencies
-└── README.md                  # Project documentation
 
 # Usage
 
